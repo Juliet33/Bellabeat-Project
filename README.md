@@ -351,6 +351,8 @@ user_type_percent %>%
      
      + 21% of the users take more than 10000 steps daily.
 
+![An image](./user_type_distribution.png)
+
 
 ##### **5.3   Determine steps taken per weekday and minutes asleep per weekday**
 We want to find out the days of the week that users are active and also the days that the sleep more.
@@ -386,7 +388,6 @@ ggarrange(
     theme(axis.text.x = element_text(angle = 45,vjust = 0.5, hjust = 1))
 )
 ```
-
 
 In the above, we can conclude that;
 
