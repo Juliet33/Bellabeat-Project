@@ -142,11 +142,11 @@ library(janitor)
 ##### **4.2   Import data sets:**
 
 ```{r}
-daily_activity <- read.csv (file = "/Users/User/Documents/fitbit_tracker_data/fitbit_data/dailyActivity_merged.csv")
+daily_activity <- read.csv (file = "/Users/User/Documents/fitbit_tracker_data_analysis/fitbit_data/dailyActivity_merged.csv")
 
-daily_sleep <- read.csv(file = "/Users/User/Documents/fitbit_tracker_data/fitbit_data/sleepDay_merged.csv")
+daily_sleep <- read.csv(file = "/Users/User/Documents/fitbit_tracker_data_analysis/fitbit_data/sleepDay_merged.csv")
 
-hourly_steps <- read.csv(file = "/Users/User/Documents/fitbit_tracker_data/fitbit_data/hourlySteps_merged.csv")
+hourly_steps <- read.csv(file = "/Users/User/Documents/fitbit_tracker_data_analysis/fitbit_data/hourlySteps_merged.csv")
 
 ```
 
