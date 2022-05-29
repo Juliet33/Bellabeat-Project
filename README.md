@@ -560,7 +560,7 @@ daily_use_percent %>%
   labs(title="Daily Use of Smart Device")
 ```
 
-![An image](./daily_user_of_smartdevice.png)
+![An image](./daily_use_of_smartdevice.png)
 
 
 
