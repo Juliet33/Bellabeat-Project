@@ -389,6 +389,11 @@ ggarrange(
 )
 ```
 
+
+![An image](./daily_steps&minutes_asleep.png)
+
+
+
 In the above, we can conclude that;
 
   - For daily steps per weekday;
@@ -427,6 +432,8 @@ hourly_steps %>%
 ```
 
 
+![An image](./steps_per_hour.png)
+
 
 
 From the diagram above, we can observe the following;
@@ -450,6 +457,10 @@ ggplot(daily_activity_sleep, aes(x=totalsteps, y=calories))+
 ```
 
 
+![An image](./cor_btw_steps_and_calories.png)
+
+
+
 From the above, we can see that the higher the number of daily steps taken, the more calories are burned. Hence, there is a positive correlation between daily steps taken and calories burned.
 
 
@@ -465,6 +476,9 @@ ggplot(daily_activity_sleep, aes(x=totalsteps, y=totalminutesasleep))+
         plot.title = element_text( size=14))
 ```
 
+![An image](./cor_btw_steps_nd_minsasleep.png)
+
+
 
 From the graph above, we can see that there is no correlation between daily steps and minutes asleep. This is because, when daily steps are going higher, it does not affect the minutes asleep.
 
@@ -478,6 +492,10 @@ ggplot(daily_activity_sleep, aes(x=totaltimeinbed, y=totalminutesasleep))+
   theme(panel.background = element_blank(),
         plot.title = element_text( size=14))
 ```
+
+![An image](./cor_btw_total_tib_nd_minsasleep.png)
+
+
 
 From the graph, we can see that there is a positive correlation between total time in bed and total minutes asleep.
 
@@ -541,6 +559,9 @@ daily_use_percent %>%
                                "Low use - 1 to 10 days"))+
   labs(title="Daily Use of Smart Device")
 ```
+
+![An image](./daily_user_of_smartdevice.png)
+
 
 
 From the pie chart above, we can see that;
