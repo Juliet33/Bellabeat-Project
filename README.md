@@ -1,5 +1,5 @@
 ---
-Title: "Bellabeat Project on Smart Device Usage"
+Title: "Bellabeat Project on Smart Device Usage Using R Langauge"
 Author: "Juliet Uadiale"
 Date: "2/9/2022"
 ---
@@ -46,7 +46,7 @@ Date: "2/9/2022"
 
 This project is focused on Bellabeat, a high-tech company founded in 2013. Bellabeat manufactures health-focused smart products;
 
-
+.
   - **Bellabeat app:** provides users with health data related to their activity, sleep, stress,menstrual cycle, and mindfulness habits. 
   
   - **Leaf:** The Leaf tracker can be worn as a bracelet, necklace, or clip and it connects to the Bellabeat app to track activity, sleep,            and stress.
